@@ -8,7 +8,8 @@ permissions:
 env:
   IMAGE: nosdigital/dnsloadbalancer
   APP_ID: ${{ vars.IMAGE_UPDATER_APP_ID }}
-  FILES: ( cluster/apps/dnsloadbalancer/env/prod/kustomization.yaml, foo/bar/file.yaml )
+  FILES: ( cluster/apps/dnsloadbalancer/env/prod/kustomization.yaml 
+           foo/bar/file.yaml )
 
 jobs:
   test:
